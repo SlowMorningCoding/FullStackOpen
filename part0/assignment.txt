@@ -1,0 +1,106 @@
+0.4: uusi muistiinpano
+    Luvussa JavaScriptia sisältävän sivun lataaminen - kertaus kuvataan sekvenssikaavion avulla 
+    sivun https://fullstack-exampleapp.herokuapp.com/notes avaamisen aikaansaama tapahtumasarja.
+
+    Kaavio on luotu WebSequenceDiagrams-palvelussa: https://www.websequencediagrams.com/
+
+    Tee kaavio, joka kuvaa mitä tapahtuu tilanteesta, missä käyttäjä luo uuden muistiinpanon ollessaan sivulla
+    https://fullstack-exampleapp.herokuapp.com/notes, eli kirjoittaa tekstikenttään jotain ja painaa nappia tallenna.
+
+    Kirjoita tarvittaessa palvelimella tai selaimessa tapahtuvat operaatiot sopivina kommentteina kaavion sekaan.
+
+    Kaavion ei ole pakko olla sekvenssikaavio. Mikä tahansa järkevä kuvaustapa käy.
+
+    WebSequenceDiagrams:
+        Selain->Palvelin: HTTP POST /notes{ body.note }
+        note over Palvelin:
+        Palvelin tallentaa muistiinpano-listaan pyynnön mukana tulevan 
+        note-arvon sekä tallennus päivämäärän.
+        end note
+        Palvelin-->Selain: HTTP 302 Found > Redirect location: /notes
+
+        Selain->Palvelin: HTTP GET /notes
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: text/html;
+
+        note over Selain:
+        Selain alkaa suorittamaan html-koodia 
+        ja pyytää tarvittavat lähdeviittaukset
+        end note
+
+        Selain->Palvelin: HTTP GET /main.css
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: text/css
+        Selain->Palvelin: HTTP GET /main.js
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: application/javascript
+
+        note over Selain:
+        Selain alkaa suorittaa js-koodia
+        joka pyytää JSON-datan palvelimelta
+        end note
+
+        Selain->Palvelin: HTTP GET /data.json
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: application/json
+
+        note over Selain:
+        Selain suorittaa tapahtumankäsittelijän
+        joka renderöi muistiinpanot näytölle
+        end note
+
+0.5: Single Page App
+    Tee kaavio tilanteesta, missä käyttäjä menee selaimella osoitteeseen 
+    https://fullstack-exampleapp.herokuapp.com/spa eli muistiinpanojen Single Page App-versioon
+
+    WebSequenceDiagrams:
+        Selain->Palvelin: HTTP GET /spa
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: text/html;
+
+        note over Selain:
+        Selain alkaa suorittamaan html-koodia 
+        ja pyytää tarvittavat lähdeviittaukset
+        end note
+
+        Selain->Palvelin: HTTP GET /main.css
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: text/css
+        Selain->Palvelin: HTTP GET /spa.js
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: application/javascript
+
+        note over Selain:
+        Selain alkaa suorittaa js-koodia
+        joka pyytää JSON-datan palvelimelta
+        end note
+
+        Selain->Palvelin: HTTP GET /data.json
+        Palvelin-->Selain: HTTP 200 OK > Content-Type: application/json
+
+        note over Selain:
+        Selain suorittaa tapahtumankäsittelijän
+        joka renderöi muistiinpanot näytölle
+        end note
+
+0.6: Uusi muistiinpano
+    Tee kaavio tilanteesta, missä käyttäjä luo uuden muistiinpanon single page -versiossa.
+
+    WebSequenceDiagrams:
+        note over Selain:
+        Selaimella on muistissa aikaisemmin
+        ladattu /spa -sivu ja js-koodi
+        end note
+
+        note over Selain:
+        Napin painallus käynnistää suorituksen jossa
+        Luetaan lomakkeen tieto ja luodaan tallennus aika.
+        Nämä tiedot lisätään muistiinpano listaan, 
+        renderöidään näytölle ja välitetään palvelimelle.
+        end note
+
+        Selain->Palvelin: HTTP POST /new_note_spa {content, date}
+
+        note over Palvelin:
+        Palvelin tallentaa tiedot ja vasta pyyntöön
+        end note
+
+        Palvelin-->Selain: HTTP 201 Created > Content-Type: application/json
+
+        note over Selain:
+        Selain suorittaa tapahtumankäsittelijän
+        joka renderöi muistiinpanot näytölle
+        end note
