@@ -47,9 +47,17 @@ function Statistics({ good, neutral, bad }) {
   kuinka monta prosenttia palautteista on ollut positiivisia:
   */
   const all = good + neutral + bad;
-  const avg = (good-bad)/all;
-  const positivePros = good/all*100;
+  const avg = (good - bad) / all;
+  const positivePros = (good / all) * 100;
 
+  if (all === 0) {
+    return (
+      <div>
+        <h2>Statistics</h2>
+        <p>No feedback given</p>
+      </div>
+    );
+  }
   return (
     <div>
       <h2>Statistics</h2>
