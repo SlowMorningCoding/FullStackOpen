@@ -1,0 +1,244 @@
+                       === npm audit security report ===                        
+                                 Manual Review                                  
+             Some vulnerabilities require your attention to resolve             
+          Visit https://go.npm.me/audit-guide for additional guidance           
+
+  Moderate         Inefficient Regular Expression Complexity in                 
+                  chalk/ansi-regex                                              
+  Package         ansi-regex                                                    
+  Patched in      >=5.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack-dev-server > yargs > string-width >   
+                  strip-ansi > ansi-regex                                       
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw             
+
+  Moderate         Inefficient Regular Expression Complexity in                 
+                  chalk/ansi-regex                                              
+  Package         ansi-regex                                                    
+  Patched in      >=5.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack-dev-server > yargs > cliui >          
+                  string-width > strip-ansi > ansi-regex                        
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw             
+
+  Moderate         Inefficient Regular Expression Complexity in                 
+                  chalk/ansi-regex                                              
+  Package         ansi-regex                                                    
+  Patched in      >=5.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack-dev-server > yargs > cliui >          
+                  wrap-ansi > string-width > strip-ansi > ansi-regex            
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw             
+
+  Moderate         Inefficient Regular Expression Complexity in                 
+                  chalk/ansi-regex                                              
+  Package         ansi-regex                                                    
+  Patched in      >=5.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack-dev-server > yargs > cliui >          
+                  strip-ansi > ansi-regex                                       
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw             
+
+  Moderate         Inefficient Regular Expression Complexity in                 
+                  chalk/ansi-regex                                              
+  Package         ansi-regex                                                    
+  Patched in      >=5.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack-dev-server > yargs > cliui >          
+                  wrap-ansi > strip-ansi > ansi-regex                           
+  More info       https://github.com/advisories/GHSA-93q8-gq69-wqmw             
+
+  Moderate        Inefficient Regular Expression Complexity in nth-check        
+  Package         nth-check                                                     
+  Patched in      >=2.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo >    
+                  css-select > nth-check                                        
+  More info       https://github.com/advisories/GHSA-rp65-9cf3-cjxr             
+
+  Moderate        Inefficient Regular Expression Complexity in nth-check        
+  Package         nth-check                                                     
+  Patched in      >=2.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > optimize-css-assets-webpack-plugin > cssnano  
+                  > cssnano-preset-default > postcss-svgo > svgo > css-select   
+                  > nth-check                                                   
+  More info       https://github.com/advisories/GHSA-rp65-9cf3-cjxr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack > micromatch > snapdragon > base >    
+                  cache-base > set-value                                        
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack > micromatch > extglob > snapdragon   
+                  > base > cache-base > set-value                               
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack > micromatch > extglob >              
+                  expand-brackets > snapdragon > base > cache-base > set-value  
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > react-dev-utils >                             
+                  fork-ts-checker-webpack-plugin > micromatch > extglob >       
+                  expand-brackets > snapdragon > base > cache-base > set-value  
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > babel-jest > @jest/transform >                
+                  jest-haste-map > sane > micromatch > braces > snapdragon >    
+                  base > cache-base > set-value                                 
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > babel-jest > @jest/transform >                
+                  jest-haste-map > sane > anymatch > micromatch > braces >      
+                  snapdragon > base > cache-base > set-value                    
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > @jest/core > @jest/transform >         
+                  jest-haste-map > sane > anymatch > micromatch > braces >      
+                  snapdragon > base > cache-base > set-value                    
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > @jest/core > @jest/reporters >         
+                  @jest/transform > jest-haste-map > sane > anymatch >          
+                  micromatch > braces > snapdragon > base > cache-base >        
+                  set-value                                                     
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > @jest/core > jest-config > babel-jest  
+                  > @jest/transform > jest-haste-map > sane > anymatch >        
+                  micromatch > braces > snapdragon > base > cache-base >        
+                  set-value                                                     
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > jest-cli > @jest/core > jest-config >  
+                  babel-jest > @jest/transform > jest-haste-map > sane >        
+                  anymatch > micromatch > braces > snapdragon > base >          
+                  cache-base > set-value                                        
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > jest-cli > @jest/core > jest-runner >  
+                  jest-config > babel-jest > @jest/transform > jest-haste-map   
+                  > sane > anymatch > micromatch > braces > snapdragon > base   
+                  > cache-base > set-value                                      
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > jest-cli > @jest/core > jest-runner >  
+                  jest-runtime > jest-config > babel-jest > @jest/transform >   
+                  jest-haste-map > sane > anymatch > micromatch > braces >      
+                  snapdragon > base > cache-base > set-value                    
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > jest-cli > @jest/core > jest-runner >  
+                  jest-runtime > jest-config > babel-jest > @jest/transform >   
+                  jest-haste-map > sane > anymatch > micromatch > extglob >     
+                  expand-brackets > snapdragon > base > cache-base > set-value  
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in set-value                              
+  Package         set-value                                                     
+  Patched in      >=4.0.1                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > jest > jest-cli > @jest/core > jest-runner >  
+                  jest-runtime > jest-config > babel-jest > @jest/transform >   
+                  jest-haste-map > sane > anymatch > micromatch > extglob >     
+                  expand-brackets > snapdragon > base > cache-base >            
+                  union-value > set-value                                       
+  More info       https://github.com/advisories/GHSA-4jqc-8m5r-9rpr             
+
+  High            Prototype Pollution in immer                                  
+  Package         immer                                                         
+  Patched in      >=9.0.6                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > react-dev-utils > immer                       
+  More info       https://github.com/advisories/GHSA-c36v-fmgq-m8hx             
+
+  Critical        Prototype Pollution in immer                                  
+  Package         immer                                                         
+  Patched in      >=9.0.6                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > react-dev-utils > immer                       
+  More info       https://github.com/advisories/GHSA-33f9-j839-rf8h             
+
+  High            Uncontrolled Resource Consumption in ansi-html                
+  Package         ansi-html                                                     
+  Patched in      No patch available                                            
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > @pmmmwh/react-refresh-webpack-plugin >        
+                  ansi-html                                                     
+  More info       https://github.com/advisories/GHSA-whgm-jr23-g3j9             
+
+  High            Regular expression denial of service                          
+  Package         glob-parent                                                   
+  Patched in      >=5.1.2                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack > watchpack > watchpack-chokidar2 >   
+                  chokidar > glob-parent                                        
+  More info       https://github.com/advisories/GHSA-ww39-953v-wcq6             
+
+  High            Regular expression denial of service                          
+  Package         glob-parent                                                   
+  Patched in      >=5.1.2                                                       
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > webpack-dev-server > chokidar > glob-parent   
+  More info       https://github.com/advisories/GHSA-ww39-953v-wcq6             
+
+  Moderate        Regular Expression Denial of Service in browserslist          
+  Package         browserslist                                                  
+  Patched in      >=4.16.5                                                      
+  Dependency of   react-scripts                                                 
+  Path            react-scripts > react-dev-utils > browserslist                
+  More info       https://github.com/advisories/GHSA-w8qv-6jwh-64r5             
+
+found 27 vulnerabilities (8 moderate, 18 high, 1 critical) in 1913 scanned packages
+  27 vulnerabilities require manual review. See the full report for details.
