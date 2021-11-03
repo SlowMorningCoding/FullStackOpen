@@ -41,6 +41,15 @@ function Button({ handleClick, text }) {
 }
 
 function Statistics({ good, neutral, bad }) {
+  /*
+  yhteenlasketun määrän, 
+  keskiarvon (hyvän arvo 1, neutraalin 0, huonon -1) 
+  kuinka monta prosenttia palautteista on ollut positiivisia:
+  */
+  const all = good + neutral + bad;
+  const avg = (good-bad)/all;
+  const positivePros = good/all*100;
+
   return (
     <div>
       <h2>Statistics</h2>
@@ -50,6 +59,12 @@ function Statistics({ good, neutral, bad }) {
         Neutral: {neutral}
         <br />
         Bad: {bad}
+        <br />
+        All: {all}
+        <br />
+        Avg: {avg}
+        <br />
+        Positive: {positivePros}%
       </p>
     </div>
   );
