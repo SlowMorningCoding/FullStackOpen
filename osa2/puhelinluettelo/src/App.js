@@ -6,7 +6,14 @@ function App() {
 
   const addPerson = (event) => {
     event.preventDefault();
-    console.log("handleAddPerson", newName);
+    if (!newName.length) {
+      alert("Name is mandatory");
+      return;
+    }
+    if (persons.filter((person) => person.name === newName).length) {
+      alert(`${newName} is already added to phonebook`);
+      return;
+    }
     const newPersons = [...persons, { name: newName }];
     console.log("handleAddPerson", newPersons);
     setPersons(newPersons);
