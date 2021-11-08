@@ -16,6 +16,10 @@ function App() {
     setCountryFilter(event.target.value);
   };
 
+  const showCountryOnClick = (country) => {
+    setCountryFilter(country);
+  }
+
   const filteredCountries = countries.filter(
     (country) => country.name.common.search(new RegExp(countryFilter, "i")) >= 0
   );
@@ -24,7 +28,7 @@ function App() {
     <div>
       <h2>Country Search</h2>
       <Filter value={countryFilter} changeHandler={countryFilterChange} />
-      <Countries countries={filteredCountries} />
+      <Countries countries={filteredCountries} showCountryOnClick={showCountryOnClick} />
     </div>
   );
 }
@@ -37,7 +41,7 @@ function Filter({ value, changeHandler }) {
   );
 }
 
-function Countries({ countries }) {
+function Countries({ countries, showCountryOnClick }) {
   if (countries.length > 10) {
     return (<p>Too many matches, specify another filter</p>)
   }
@@ -48,14 +52,18 @@ function Countries({ countries }) {
   return (
     <ul>
       {countries.map((country, i) => (
-        <Country key={i} country={country} />
+        <Country key={i} country={country} showCountryOnClick={showCountryOnClick} />
       ))}
     </ul>
   );
 }
 
-function Country({ country }) {
-  return <li>{`${country.name.common}`} </li>;
+function Country({ country, showCountryOnClick }) {
+  return <li>{`${country.name.common}`} <Button handleClick={ () => showCountryOnClick(country.name.common) } text="Show" /></li>;
+}
+
+function Button({ handleClick, text }) {
+  return <button onClick={handleClick}>{text}</button>;
 }
 
 function Countryinfo({ country }) {
@@ -68,8 +76,8 @@ function Countryinfo({ country }) {
       </p>
       <h3>Languages</h3>
       <ul>
-        {Object.keys(country.languages).map((key) => (
-          <li>{country.languages[key]}</li>
+        {Object.keys(country.languages).map((key, i) => (
+          <li key={i} >{country.languages[key]}</li>
         ))}
       </ul>
       <img src={country.flags.png} alt={country.name.common} />
