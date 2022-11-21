@@ -1,3 +1,35 @@
 # FullStackOpen
+[FullStackOpen kurssi](https://fullstackopen.com/)
 
-https://fullstackopen.com/
+- [x] 0. Web-sovellusten toiminnan perusteet
+  - [x] 0.4: [Uusi muistiinpano](./FullStackOpen/0.4-Uusi%20muistiinpano.png)
+  - [x] 0.5: [Single Page App](./FullStackOpen/0.5-Single%20Page%20App.png)
+  - [x] 0.6: [Uusi muistiinpano](./FullStackOpen/0.6-Uusi%20muistiinpano.png)
+- [x] 1. Reactin perusteet
+  - [x] 1.1: [kurssitiedot, step1](./Kurssitiedot/)
+  - [x] 1.2: [kurssitiedot, step2](./Kurssitiedot/)
+  - [x] 1.3: [kurssitiedot, step3](./Kurssitiedot/)
+  - [x] 1.4: [kurssitiedot, step4](./Kurssitiedot/)
+  - [x] 1.5: [kurssitiedot, step5](./Kurssitiedot/)
+  - [x] 1.6: [unicafe step1](./Unicafe/)
+  - [x] 1.7: [unicafe step2](./Unicafe/)
+  - [x] 1.8: [unicafe step3](./Unicafe/)
+  - [x] 1.9: [unicafe step4](./Unicafe/)
+  - [x] 1.10: [unicafe step5](./Unicafe/)
+  - [x] 1.11*: [unicafe step6](./Unicafe/)
+  - [x] 1.12*: [anekdootit step1](./Anekdootit/)
+  - [x] 1.13*: [anekdootit step2](./Anekdootit/)
+  - [x] 1.14*: [anekdootit step3](./Anekdootit/)
+- [ ] 2. Palvelimen kanssa tapahtuva kommunikointi
+  - [ ] 2.1: [kurssitiedot step6](./Kurssitiedot/)
+- [ ] 3. Palvelimen ohjelmointi NodeJS:n Express-kirjastolla
+- [ ] 4. Express-sovellusten testaaminen, käyttäjänhallinta
+- [ ] 5. React-sovelluksen testaaminen
+- [ ] 6. Sovelluksen tilan hallinta Redux-kirjastolla
+- [ ] 7. React router, custom-hookit, tyylikirjastot ja webpack
+- [ ] 8. GraphQL
+- [ ] 9.  TypeScript
+- [ ] 10. React Native
+- [ ] 11. CI/CD
+- [ ] 12. Konttiteknologia
+- [ ] 13. Relaatiotietokannan käyttö
