@@ -21,7 +21,16 @@
   - [x] 1.13*: [anekdootit step2](./Anekdootit/)
   - [x] 1.14*: [anekdootit step3](./Anekdootit/)
 - [ ] 2. Palvelimen kanssa tapahtuva kommunikointi
-  - [ ] 2.1: [kurssitiedot step6](./Kurssitiedot/)
+  - [x] 2.1: [kurssitiedot step6](./Kurssitiedot/)
+  - [x] 2.2: [kurssitiedot step7](./Kurssitiedot/)
+  - [x] 2.3*: [kurssitiedot step8](./Kurssitiedot/)
+  - [x] 2.4: [kurssitiedot step9](./Kurssitiedot/)
+  - [x] 2.5: [erillinen moduuli](./Kurssitiedot/)
+  - [x] 2.6: [puhelinluettelo step1](./Puhelinluettelo/)
+  - [x] 2.7: [puhelinluettelo step2](./Puhelinluettelo/)
+  - [x] 2.8: [puhelinluettelo step3](./Puhelinluettelo/)
+  - [x] 2.9*: [puhelinluettelo step4](./Puhelinluettelo/)
+  - [ ] 2.10: [puhelinluettelo step5](./Puhelinluettelo/)
 - [ ] 3. Palvelimen ohjelmointi NodeJS:n Express-kirjastolla
 - [ ] 4. Express-sovellusten testaaminen, käyttäjänhallinta
 - [ ] 5. React-sovelluksen testaaminen
