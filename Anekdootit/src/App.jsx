@@ -42,7 +42,7 @@ function App() {
   return (
     <div>
       <h1>Anecdotes</h1>
-      
+
       <Title text="Anecdote of the day" />
       <Content text={anecdotes[selected]} />
       <Content text={'Has ' + points[selected] + ' votes'} />
@@ -60,22 +60,22 @@ function Title({ text }) {
   return <h2>{text}</h2>;
 }
 Title.propTypes = {
-  text: PropTypes.string.isRequired
-}
+  text: PropTypes.string.isRequired,
+};
 
 function Content({ text }) {
   return <p>{text}</p>;
 }
 Content.propTypes = {
-  text: PropTypes.string.isRequired
-}
+  text: PropTypes.string.isRequired,
+};
 
 function Button({ handleClick, text }) {
   return <button onClick={handleClick}>{text}</button>;
 }
 Button.propTypes = {
   handleClick: PropTypes.func.isRequired,
-  text: PropTypes.string.isRequired
-}
+  text: PropTypes.string.isRequired,
+};
 
 export default App;
