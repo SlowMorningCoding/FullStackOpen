@@ -33,22 +33,26 @@
     - [x] 2.3*: [kurssitiedot step8](./Kurssitiedot/)
     - [x] 2.4: [kurssitiedot step9](./Kurssitiedot/)
     - [x] 2.5: [erillinen moduuli](./Kurssitiedot/)
-  - [ ] b. [Lomakkeiden käsittely](https://fullstackopen.com/osa2/lomakkeiden_kasittely)
+  - [x] b. [Lomakkeiden käsittely](https://fullstackopen.com/osa2/lomakkeiden_kasittely)
     - [x] 2.6: [puhelinluettelo step1](./Puhelinluettelo/)
     - [x] 2.7: [puhelinluettelo step2](./Puhelinluettelo/)
     - [x] 2.8: [puhelinluettelo step3](./Puhelinluettelo/)
     - [x] 2.9*: [puhelinluettelo step4](./Puhelinluettelo/)
-    - [ ] 2.10: [puhelinluettelo step5](./Puhelinluettelo/)
+    - [x] 2.10: [puhelinluettelo step5](./Puhelinluettelo/)
   - [ ] c. [Palvelimella olevan datan hakeminen](https://fullstackopen.com/osa2/palvelimella_olevan_datan_hakeminen)
-    - [ ] 2.11: [puhelinluettelo step6]()
-    - [ ] 2.12* maiden tiedot, step1
-    - [ ] 2.13*: maiden tiedot, step2
-    - [ ] 2.14*: maiden tiedot, step3
+    - [ ] 2.11: [puhelinluettelo step6](./Puhelinluettelo/)
+    - [ ] 2.12* [maiden tiedot, step1]()
+    - [ ] 2.13*: [maiden tiedot, step2]()
+    - [ ] 2.14*: [maiden tiedot, step3](https://github.com/SlowMorningCoding/FullStackOpen/tree/v2.14.0/Maiden_tiedot/)
+
+- [maiden tiedot, step3](./v2.14.0/Maiden_tiedot/)
+- [maiden tiedot, step3](../v2.14.0/Maiden_tiedot/)
+
   - [ ] d. [Palvelimella olevan datan muokkaaminen](https://fullstackopen.com/osa2/palvelimella_olevan_datan_muokkaaminen)
-    - [ ] 2.15: puhelinluettelo step7
-    - [ ] 2.16: puhelinluettelo step8
-    - [ ] 2.17: puhelinluettelo step9
-    - [ ] 2.18*: puhelinluettelo step10
+    - [ ] 2.15: [puhelinluettelo step7]()
+    - [ ] 2.16: [puhelinluettelo step8]()
+    - [ ] 2.17: [puhelinluettelo step9]()
+    - [ ] 2.18*: [puhelinluettelo step10]()
   - [ ] e. [Tyylien lisääminen React-sovellukseen](https://fullstackopen.com/osa2/tyylien_lisaaminen_react_sovellukseen)
     - [ ] 2.19: puhelinluettelo step11
     - [ ] 2.20*: puhelinluettelo step12
