@@ -39,7 +39,46 @@
     - [x] 2.8: [puhelinluettelo step3](./Puhelinluettelo/)
     - [x] 2.9*: [puhelinluettelo step4](./Puhelinluettelo/)
     - [ ] 2.10: [puhelinluettelo step5](./Puhelinluettelo/)
+  - [ ] c. [Palvelimella olevan datan hakeminen](https://fullstackopen.com/osa2/palvelimella_olevan_datan_hakeminen)
+    - [ ] 2.11: [puhelinluettelo step6]()
+    - [ ] 2.12* maiden tiedot, step1
+    - [ ] 2.13*: maiden tiedot, step2
+    - [ ] 2.14*: maiden tiedot, step3
+  - [ ] d. [Palvelimella olevan datan muokkaaminen](https://fullstackopen.com/osa2/palvelimella_olevan_datan_muokkaaminen)
+    - [ ] 2.15: puhelinluettelo step7
+    - [ ] 2.16: puhelinluettelo step8
+    - [ ] 2.17: puhelinluettelo step9
+    - [ ] 2.18*: puhelinluettelo step10
+  - [ ] e. [Tyylien lisääminen React-sovellukseen](https://fullstackopen.com/osa2/tyylien_lisaaminen_react_sovellukseen)
+    - [ ] 2.19: puhelinluettelo step11
+    - [ ] 2.20*: puhelinluettelo step12
 - [ ] 3. Palvelimen ohjelmointi NodeJS:n Express-kirjastolla
+  - [ ] a. [Node.js ja Express](https://fullstackopen.com/osa3/node_js_ja_express)
+    - [ ] 3.1 puhelinluettelon backend step1
+    - [ ] 3.2: puhelinluettelon backend step2
+    - [ ] 3.3: puhelinluettelon backend step3
+    - [ ] 3.4: puhelinluettelon backend step4
+    - [ ] 3.5: puhelinluettelon backend step5
+    - [ ] 3.6: puhelinluettelon backend step6
+    - [ ] 3.7: puhelinluettelon backend step7
+    - [ ] 3.8*: puhelinluettelon backend step8
+  - [ ] b. [Sovellus internetiin](https://fullstackopen.com/osa3/sovellus_internetiin)
+    - [ ] 3.9 puhelinluettelon backend step9
+    - [ ] 3.10 puhelinluettelon backend step10
+    - [ ] 3.11 puhelinluettelo full stack
+  - [ ] c. [Tietojen tallettaminen MongoDB-tietokantaan](https://fullstackopen.com/osa3/tietojen_tallettaminen_mongo_db_tietokantaan)
+    - [ ] 3.12: tietokanta komentoriviltä
+    - [ ] 3.13: puhelinluettelo ja tietokanta, step1
+    - [ ] 3.14: puhelinluettelo ja tietokanta, step2
+    - [ ] 3.15: puhelinluettelo ja tietokanta, step3
+    - [ ] 3.16: puhelinluettelo ja tietokanta, step4
+    - [ ] 3.17*: puhelinluettelo ja tietokanta, step5
+    - [ ] 3.18*: puhelinluettelo ja tietokanta, step6
+  - [ ] d. [Validointi ja ESLint](https://fullstackopen.com/osa3/validointi_ja_es_lint)
+    - [ ] 3.19: puhelinluettelo ja tietokanta, step7
+    - [ ] 3.20*: puhelinluettelo ja tietokanta, step8
+    - [ ] 3.21 tietokantaa käyttävä versio Internetiin
+    - [ ] 3.22: lint-konfiguraatio
 - [ ] 4. Express-sovellusten testaaminen, käyttäjänhallinta
 - [ ] 5. React-sovelluksen testaaminen
 - [ ] 6. Sovelluksen tilan hallinta Redux-kirjastolla
